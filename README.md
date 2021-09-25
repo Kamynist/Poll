@@ -1,4 +1,4 @@
-# Poll Manager
+# Polls Manager
 
 # /admin
 
