@@ -1,6 +1,6 @@
 # Poll
 
-# admin
+# /admin
 
 admin/polls - Все опросы
 
@@ -11,7 +11,7 @@ admin/polls/<id>/questions - вопросы опроса
 admin/polls/<id>/questions/<id> - Вопрос опроса
 
   
-# polls
+# /polls
 polls - опросы
   
 polls/<id> - опрос
