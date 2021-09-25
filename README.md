@@ -70,6 +70,8 @@ admin/polls/<id>/questions/<id> - Вопрос опроса
 # /polls
 
 polls
+  
+Тело ответа:
   ```
   [
     {
