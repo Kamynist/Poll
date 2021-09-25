@@ -69,23 +69,36 @@ admin/polls/<id>/questions/<id> - Вопрос опроса
   
 # /polls
 
+polls
+  ```
+  [
+    {
+        "id": 1,
+        "title": "Проверка",
+        "description": "Проверка работы",
+        "startDate": "2021-09-24",
+        "finishDate": "2021-10-24"
+    }
+]
+  ```
+  
 polls/<id> - опрос
   
   Тело ответа:
 ```  
-  {
-    "id": 1,
-    "title": "Проверка",
-    "description": "Проверка работы",
-    "startDate": "2021-09-24",
-    "finishDate": "2021-10-24",
-    "questions": [
-        {
-            "id": 1,
-            "type": "CHOICE",
-            "text": "Работает?",
-            "options": []
-        }
-    ]
+{
+  "id": 1,
+  "title": "Проверка",
+  "description": "Проверка работы",
+  "startDate": "2021-09-24",
+  "finishDate": "2021-10-24",
+  "questions": [
+      {
+          "id": 1,
+          "type": "CHOICE",
+          "text": "Работает?",
+          "options": []
+      }
+  ]
 }
 ```
