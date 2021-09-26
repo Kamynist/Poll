@@ -25,6 +25,7 @@ admin/polls - Все опросы
 ```
 
 
+
 admin/polls/<id> - Опрос
 
   Тело ответа:
@@ -47,6 +48,7 @@ admin/polls/<id> - Опрос
   ```
 
   
+  
 admin/polls/<id>/questions - вопросы опроса
   
   Тело ответа:
@@ -57,6 +59,7 @@ admin/polls/<id>/questions - вопросы опроса
 ```
   
   
+  
 admin/polls/<id>/questions/<id> - Вопрос опроса
   
   Тело ответа:
@@ -65,6 +68,7 @@ admin/polls/<id>/questions/<id> - Вопрос опроса
     "detail": "Not found."
 }
 ```
+  
   
   
 # /polls
@@ -83,6 +87,8 @@ polls
     }
 ]
   ```
+  
+  
   
 polls/<id> - опрос
   
