@@ -2,7 +2,7 @@
 
 # /admin
 
-admin/polls - Все опросы
+### admin/polls - Все опросы
 
   Тело ответа:
 ```
@@ -26,7 +26,7 @@ admin/polls - Все опросы
 
 
 
-admin/polls/<id> - Опрос
+### admin/polls/<id> - Опрос
 
   Тело ответа:
   ```
@@ -49,7 +49,7 @@ admin/polls/<id> - Опрос
 
   
   
-admin/polls/<id>/questions - вопросы опроса
+### admin/polls/<id>/questions - вопросы опроса
   
   Тело ответа:
 ```
@@ -60,7 +60,7 @@ admin/polls/<id>/questions - вопросы опроса
   
   
   
-admin/polls/<id>/questions/<id> - Вопрос опроса
+### admin/polls/<id>/questions/<id> - Вопрос опроса
   
   Тело ответа:
 ```
@@ -73,7 +73,7 @@ admin/polls/<id>/questions/<id> - Вопрос опроса
   
 # /polls
 
-polls
+### polls - опросы
   
 Тело ответа:
   ```
@@ -90,7 +90,7 @@ polls
   
   
   
-polls/<id> - опрос
+### polls/<id> - опрос
   
   Тело ответа:
 ```  
